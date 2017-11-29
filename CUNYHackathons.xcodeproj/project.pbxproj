@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42227E551FCF1A2A001F3513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E541FCF1A2A001F3513 /* AppDelegate.swift */; };
+		42227E571FCF1A2A001F3513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E561FCF1A2A001F3513 /* ViewController.swift */; };
+		42227E5A1FCF1A2A001F3513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42227E581FCF1A2A001F3513 /* Main.storyboard */; };
+		42227E5C1FCF1A2A001F3513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42227E5B1FCF1A2A001F3513 /* Assets.xcassets */; };
+		42227E5F1FCF1A2A001F3513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42227E5D1FCF1A2A001F3513 /* LaunchScreen.storyboard */; };
+		42227E6A1FCF1A2B001F3513 /* CUNYHackathonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E691FCF1A2B001F3513 /* CUNYHackathonsTests.swift */; };
+		42227E751FCF1A2B001F3513 /* CUNYHackathonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E741FCF1A2B001F3513 /* CUNYHackathonsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42227E661FCF1A2B001F3513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42227E491FCF1A2A001F3513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42227E501FCF1A2A001F3513;
+			remoteInfo = CUNYHackathons;
+		};
+		42227E711FCF1A2B001F3513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42227E491FCF1A2A001F3513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42227E501FCF1A2A001F3513;
+			remoteInfo = CUNYHackathons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42227E511FCF1A2A001F3513 /* CUNYHackathons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUNYHackathons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42227E541FCF1A2A001F3513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42227E561FCF1A2A001F3513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42227E591FCF1A2A001F3513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42227E5B1FCF1A2A001F3513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42227E5E1FCF1A2A001F3513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42227E601FCF1A2A001F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42227E651FCF1A2B001F3513 /* CUNYHackathonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUNYHackathonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42227E691FCF1A2B001F3513 /* CUNYHackathonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUNYHackathonsTests.swift; sourceTree = "<group>"; };
+		42227E6B1FCF1A2B001F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42227E701FCF1A2B001F3513 /* CUNYHackathonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUNYHackathonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42227E741FCF1A2B001F3513 /* CUNYHackathonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUNYHackathonsUITests.swift; sourceTree = "<group>"; };
+		42227E761FCF1A2B001F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42227E4E1FCF1A2A001F3513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42227E621FCF1A2B001F3513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42227E6D1FCF1A2B001F3513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42227E481FCF1A2A001F3513 = {
+			isa = PBXGroup;
+			children = (
+				42227E531FCF1A2A001F3513 /* CUNYHackathons */,
+				42227E681FCF1A2B001F3513 /* CUNYHackathonsTests */,
+				42227E731FCF1A2B001F3513 /* CUNYHackathonsUITests */,
+				42227E521FCF1A2A001F3513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42227E521FCF1A2A001F3513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42227E511FCF1A2A001F3513 /* CUNYHackathons.app */,
+				42227E651FCF1A2B001F3513 /* CUNYHackathonsTests.xctest */,
+				42227E701FCF1A2B001F3513 /* CUNYHackathonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42227E531FCF1A2A001F3513 /* CUNYHackathons */ = {
+			isa = PBXGroup;
+			children = (
+				42227E541FCF1A2A001F3513 /* AppDelegate.swift */,
+				42227E561FCF1A2A001F3513 /* ViewController.swift */,
+				42227E581FCF1A2A001F3513 /* Main.storyboard */,
+				42227E5B1FCF1A2A001F3513 /* Assets.xcassets */,
+				42227E5D1FCF1A2A001F3513 /* LaunchScreen.storyboard */,
+				42227E601FCF1A2A001F3513 /* Info.plist */,
+			);
+			path = CUNYHackathons;
+			sourceTree = "<group>";
+		};
+		42227E681FCF1A2B001F3513 /* CUNYHackathonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				42227E691FCF1A2B001F3513 /* CUNYHackathonsTests.swift */,
+				42227E6B1FCF1A2B001F3513 /* Info.plist */,
+			);
+			path = CUNYHackathonsTests;
+			sourceTree = "<group>";
+		};
+		42227E731FCF1A2B001F3513 /* CUNYHackathonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42227E741FCF1A2B001F3513 /* CUNYHackathonsUITests.swift */,
+				42227E761FCF1A2B001F3513 /* Info.plist */,
+			);
+			path = CUNYHackathonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42227E501FCF1A2A001F3513 /* CUNYHackathons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42227E791FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathons" */;
+			buildPhases = (
+				42227E4D1FCF1A2A001F3513 /* Sources */,
+				42227E4E1FCF1A2A001F3513 /* Frameworks */,
+				42227E4F1FCF1A2A001F3513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUNYHackathons;
+			productName = CUNYHackathons;
+			productReference = 42227E511FCF1A2A001F3513 /* CUNYHackathons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42227E641FCF1A2B001F3513 /* CUNYHackathonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42227E7C1FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathonsTests" */;
+			buildPhases = (
+				42227E611FCF1A2B001F3513 /* Sources */,
+				42227E621FCF1A2B001F3513 /* Frameworks */,
+				42227E631FCF1A2B001F3513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42227E671FCF1A2B001F3513 /* PBXTargetDependency */,
+			);
+			name = CUNYHackathonsTests;
+			productName = CUNYHackathonsTests;
+			productReference = 42227E651FCF1A2B001F3513 /* CUNYHackathonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42227E6F1FCF1A2B001F3513 /* CUNYHackathonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42227E7F1FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathonsUITests" */;
+			buildPhases = (
+				42227E6C1FCF1A2B001F3513 /* Sources */,
+				42227E6D1FCF1A2B001F3513 /* Frameworks */,
+				42227E6E1FCF1A2B001F3513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42227E721FCF1A2B001F3513 /* PBXTargetDependency */,
+			);
+			name = CUNYHackathonsUITests;
+			productName = CUNYHackathonsUITests;
+			productReference = 42227E701FCF1A2B001F3513 /* CUNYHackathonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42227E491FCF1A2A001F3513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jesse Seidman";
+				TargetAttributes = {
+					42227E501FCF1A2A001F3513 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					42227E641FCF1A2B001F3513 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42227E501FCF1A2A001F3513;
+					};
+					42227E6F1FCF1A2B001F3513 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42227E501FCF1A2A001F3513;
+					};
+				};
+			};
+			buildConfigurationList = 42227E4C1FCF1A2A001F3513 /* Build configuration list for PBXProject "CUNYHackathons" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42227E481FCF1A2A001F3513;
+			productRefGroup = 42227E521FCF1A2A001F3513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42227E501FCF1A2A001F3513 /* CUNYHackathons */,
+				42227E641FCF1A2B001F3513 /* CUNYHackathonsTests */,
+				42227E6F1FCF1A2B001F3513 /* CUNYHackathonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42227E4F1FCF1A2A001F3513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42227E5F1FCF1A2A001F3513 /* LaunchScreen.storyboard in Resources */,
+				42227E5C1FCF1A2A001F3513 /* Assets.xcassets in Resources */,
+				42227E5A1FCF1A2A001F3513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42227E631FCF1A2B001F3513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42227E6E1FCF1A2B001F3513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42227E4D1FCF1A2A001F3513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42227E571FCF1A2A001F3513 /* ViewController.swift in Sources */,
+				42227E551FCF1A2A001F3513 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42227E611FCF1A2B001F3513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42227E6A1FCF1A2B001F3513 /* CUNYHackathonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42227E6C1FCF1A2B001F3513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42227E751FCF1A2B001F3513 /* CUNYHackathonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42227E671FCF1A2B001F3513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42227E501FCF1A2A001F3513 /* CUNYHackathons */;
+			targetProxy = 42227E661FCF1A2B001F3513 /* PBXContainerItemProxy */;
+		};
+		42227E721FCF1A2B001F3513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42227E501FCF1A2A001F3513 /* CUNYHackathons */;
+			targetProxy = 42227E711FCF1A2B001F3513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42227E581FCF1A2A001F3513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42227E591FCF1A2A001F3513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42227E5D1FCF1A2A001F3513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42227E5E1FCF1A2A001F3513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42227E771FCF1A2B001F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42227E781FCF1A2B001F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42227E7A1FCF1A2B001F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U77HKX6R;
+				INFOPLIST_FILE = CUNYHackathons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42227E7B1FCF1A2B001F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U77HKX6R;
+				INFOPLIST_FILE = CUNYHackathons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42227E7D1FCF1A2B001F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U77HKX6R;
+				INFOPLIST_FILE = CUNYHackathonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CUNYHackathons.app/CUNYHackathons";
+			};
+			name = Debug;
+		};
+		42227E7E1FCF1A2B001F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U77HKX6R;
+				INFOPLIST_FILE = CUNYHackathonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CUNYHackathons.app/CUNYHackathons";
+			};
+			name = Release;
+		};
+		42227E801FCF1A2B001F3513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U77HKX6R;
+				INFOPLIST_FILE = CUNYHackathonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CUNYHackathons;
+			};
+			name = Debug;
+		};
+		42227E811FCF1A2B001F3513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U77HKX6R;
+				INFOPLIST_FILE = CUNYHackathonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CUNYHackathons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42227E4C1FCF1A2A001F3513 /* Build configuration list for PBXProject "CUNYHackathons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42227E771FCF1A2B001F3513 /* Debug */,
+				42227E781FCF1A2B001F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42227E791FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42227E7A1FCF1A2B001F3513 /* Debug */,
+				42227E7B1FCF1A2B001F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42227E7C1FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42227E7D1FCF1A2B001F3513 /* Debug */,
+				42227E7E1FCF1A2B001F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42227E7F1FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42227E801FCF1A2B001F3513 /* Debug */,
+				42227E811FCF1A2B001F3513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42227E491FCF1A2A001F3513 /* Project object */;
+}
