@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2C653CB650E4064724D121 /* Pods_CUNYHackathonsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD9B6A6A703679642E540D2 /* Pods_CUNYHackathonsUITests.framework */; };
+		42068CE71FE0D9F8003E7A66 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42068CE61FE0D9F8003E7A66 /* ChatViewController.swift */; };
 		42227E551FCF1A2A001F3513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E541FCF1A2A001F3513 /* AppDelegate.swift */; };
 		42227E571FCF1A2A001F3513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E561FCF1A2A001F3513 /* ViewController.swift */; };
 		42227E5A1FCF1A2A001F3513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42227E581FCF1A2A001F3513 /* Main.storyboard */; };
@@ -14,6 +16,22 @@
 		42227E5F1FCF1A2A001F3513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42227E5D1FCF1A2A001F3513 /* LaunchScreen.storyboard */; };
 		42227E6A1FCF1A2B001F3513 /* CUNYHackathonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E691FCF1A2B001F3513 /* CUNYHackathonsTests.swift */; };
 		42227E751FCF1A2B001F3513 /* CUNYHackathonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E741FCF1A2B001F3513 /* CUNYHackathonsUITests.swift */; };
+		42227E851FCF5B4F001F3513 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E841FCF5B4F001F3513 /* CreateUserViewController.swift */; };
+		42227E871FCF65A7001F3513 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E861FCF65A7001F3513 /* MainTabViewController.swift */; };
+		42227E891FCF6C62001F3513 /* HackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227E881FCF6C62001F3513 /* HackathonViewController.swift */; };
+		4247D29E1FEF847700AE23E8 /* DatabaseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4247D29D1FEF847700AE23E8 /* DatabaseLoader.swift */; };
+		424E10C11FD44F4600886B7D /* DateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E10C01FD44F4600886B7D /* DateEnum.swift */; };
+		425511611FD8F77600B8D213 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425511601FD8F77600B8D213 /* AddTableViewController.swift */; };
+		426F5A821FE0BFC200C20285 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F5A811FE0BFC200C20285 /* AddGroupViewController.swift */; };
+		428C80931FE09438005E6D88 /* SendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428C80921FE09438005E6D88 /* SendRequestViewController.swift */; };
+		42D714341FD10E4200F2712B /* AddHackathonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D714331FD10E4200F2712B /* AddHackathonViewController.swift */; };
+		42D714361FD3780400F2712B /* StateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D714351FD3780400F2712B /* StateEnum.swift */; };
+		42F15A991FDF3B2F0076BB06 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F15A981FDF3B2F0076BB06 /* DetailTableViewController.swift */; };
+		42F15A9E1FDF87C50076BB06 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F15A9D1FDF87C40076BB06 /* WebKit.framework */; };
+		42F15AA01FDF882B0076BB06 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F15A9F1FDF882B0076BB06 /* WebViewController.swift */; };
+		42F15AA61FE019410076BB06 /* HackChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F15AA51FE019410076BB06 /* HackChatViewController.swift */; };
+		64C65AE91E2CA8109C3AF73E /* Pods_CUNYHackathonsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026CEC915D169918ADE47C0A /* Pods_CUNYHackathonsTests.framework */; };
+		AB9DECF1EAFC6184281C689A /* Pods_CUNYHackathons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3003D98476E98B436292D7E /* Pods_CUNYHackathons.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026CEC915D169918ADE47C0A /* Pods_CUNYHackathonsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CUNYHackathonsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42068CE61FE0D9F8003E7A66 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		42227E511FCF1A2A001F3513 /* CUNYHackathons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUNYHackathons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42227E541FCF1A2A001F3513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42227E561FCF1A2A001F3513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,28 @@
 		42227E701FCF1A2B001F3513 /* CUNYHackathonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUNYHackathonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42227E741FCF1A2B001F3513 /* CUNYHackathonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUNYHackathonsUITests.swift; sourceTree = "<group>"; };
 		42227E761FCF1A2B001F3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42227E841FCF5B4F001F3513 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		42227E861FCF65A7001F3513 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		42227E881FCF6C62001F3513 /* HackathonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonViewController.swift; sourceTree = "<group>"; };
+		4247D29D1FEF847700AE23E8 /* DatabaseLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatabaseLoader.swift; path = ../DatabaseLoader.swift; sourceTree = "<group>"; };
+		424E10C01FD44F4600886B7D /* DateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateEnum.swift; sourceTree = "<group>"; };
+		425511601FD8F77600B8D213 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		426F5A811FE0BFC200C20285 /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		428C80921FE09438005E6D88 /* SendRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestViewController.swift; sourceTree = "<group>"; };
+		42D714331FD10E4200F2712B /* AddHackathonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHackathonViewController.swift; sourceTree = "<group>"; };
+		42D714351FD3780400F2712B /* StateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateEnum.swift; sourceTree = "<group>"; };
+		42F15A981FDF3B2F0076BB06 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		42F15A9D1FDF87C40076BB06 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		42F15A9F1FDF882B0076BB06 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		42F15AA51FE019410076BB06 /* HackChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackChatViewController.swift; sourceTree = "<group>"; };
+		906B309DB66EDA6DFA31EBA3 /* Pods-CUNYHackathonsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUNYHackathonsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CUNYHackathonsUITests/Pods-CUNYHackathonsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3135BBA4578AB6E6FB28906 /* Pods-CUNYHackathonsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUNYHackathonsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CUNYHackathonsTests/Pods-CUNYHackathonsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD9B6A6A703679642E540D2 /* Pods_CUNYHackathonsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CUNYHackathonsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3BAE83FD6FB535DB3C9E2B /* Pods-CUNYHackathonsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUNYHackathonsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CUNYHackathonsTests/Pods-CUNYHackathonsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D70CAD2DC8F31C09E775102E /* Pods-CUNYHackathons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUNYHackathons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CUNYHackathons/Pods-CUNYHackathons.debug.xcconfig"; sourceTree = "<group>"; };
+		D896AA9F4550D336CF59E885 /* Pods-CUNYHackathonsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUNYHackathonsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CUNYHackathonsUITests/Pods-CUNYHackathonsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3003D98476E98B436292D7E /* Pods_CUNYHackathons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CUNYHackathons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F609501B6E2D9316A40BAEF3 /* Pods-CUNYHackathons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CUNYHackathons.release.xcconfig"; path = "Pods/Target Support Files/Pods-CUNYHackathons/Pods-CUNYHackathons.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F15A9E1FDF87C50076BB06 /* WebKit.framework in Frameworks */,
+				AB9DECF1EAFC6184281C689A /* Pods_CUNYHackathons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C65AE91E2CA8109C3AF73E /* Pods_CUNYHackathonsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +113,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2C653CB650E4064724D121 /* Pods_CUNYHackathonsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31AF693F62CFC8313E25E41F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F15A9D1FDF87C40076BB06 /* WebKit.framework */,
+				E3003D98476E98B436292D7E /* Pods_CUNYHackathons.framework */,
+				026CEC915D169918ADE47C0A /* Pods_CUNYHackathonsTests.framework */,
+				ACD9B6A6A703679642E540D2 /* Pods_CUNYHackathonsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42227E481FCF1A2A001F3513 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,8 @@
 				42227E681FCF1A2B001F3513 /* CUNYHackathonsTests */,
 				42227E731FCF1A2B001F3513 /* CUNYHackathonsUITests */,
 				42227E521FCF1A2A001F3513 /* Products */,
+				F6E49E62E5C4EC37B5DB2A5A /* Pods */,
+				31AF693F62CFC8313E25E41F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +156,11 @@
 		42227E531FCF1A2A001F3513 /* CUNYHackathons */ = {
 			isa = PBXGroup;
 			children = (
+				4247D29D1FEF847700AE23E8 /* DatabaseLoader.swift */,
 				42227E541FCF1A2A001F3513 /* AppDelegate.swift */,
-				42227E561FCF1A2A001F3513 /* ViewController.swift */,
+				42CA5F2C1FE17A3800983C54 /* Enums */,
+				42F15AA71FE019F60076BB06 /* ChatVC's */,
+				42F15A9C1FDF7E1D0076BB06 /* HackVC's */,
 				42227E581FCF1A2A001F3513 /* Main.storyboard */,
 				42227E5B1FCF1A2A001F3513 /* Assets.xcassets */,
 				42227E5D1FCF1A2A001F3513 /* LaunchScreen.storyboard */,
@@ -125,6 +187,54 @@
 			path = CUNYHackathonsUITests;
 			sourceTree = "<group>";
 		};
+		42CA5F2C1FE17A3800983C54 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				424E10C01FD44F4600886B7D /* DateEnum.swift */,
+				42D714351FD3780400F2712B /* StateEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		42F15A9C1FDF7E1D0076BB06 /* HackVC's */ = {
+			isa = PBXGroup;
+			children = (
+				42227E561FCF1A2A001F3513 /* ViewController.swift */,
+				42227E841FCF5B4F001F3513 /* CreateUserViewController.swift */,
+				42227E861FCF65A7001F3513 /* MainTabViewController.swift */,
+				42227E881FCF6C62001F3513 /* HackathonViewController.swift */,
+				42D714331FD10E4200F2712B /* AddHackathonViewController.swift */,
+				42F15A9F1FDF882B0076BB06 /* WebViewController.swift */,
+				425511601FD8F77600B8D213 /* AddTableViewController.swift */,
+				42F15A981FDF3B2F0076BB06 /* DetailTableViewController.swift */,
+			);
+			path = "HackVC's";
+			sourceTree = "<group>";
+		};
+		42F15AA71FE019F60076BB06 /* ChatVC's */ = {
+			isa = PBXGroup;
+			children = (
+				42F15AA51FE019410076BB06 /* HackChatViewController.swift */,
+				428C80921FE09438005E6D88 /* SendRequestViewController.swift */,
+				426F5A811FE0BFC200C20285 /* AddGroupViewController.swift */,
+				42068CE61FE0D9F8003E7A66 /* ChatViewController.swift */,
+			);
+			path = "ChatVC's";
+			sourceTree = "<group>";
+		};
+		F6E49E62E5C4EC37B5DB2A5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D70CAD2DC8F31C09E775102E /* Pods-CUNYHackathons.debug.xcconfig */,
+				F609501B6E2D9316A40BAEF3 /* Pods-CUNYHackathons.release.xcconfig */,
+				A3135BBA4578AB6E6FB28906 /* Pods-CUNYHackathonsTests.debug.xcconfig */,
+				BA3BAE83FD6FB535DB3C9E2B /* Pods-CUNYHackathonsTests.release.xcconfig */,
+				D896AA9F4550D336CF59E885 /* Pods-CUNYHackathonsUITests.debug.xcconfig */,
+				906B309DB66EDA6DFA31EBA3 /* Pods-CUNYHackathonsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42227E791FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathons" */;
 			buildPhases = (
+				1A88389C6034FC74FD270385 /* [CP] Check Pods Manifest.lock */,
 				42227E4D1FCF1A2A001F3513 /* Sources */,
 				42227E4E1FCF1A2A001F3513 /* Frameworks */,
 				42227E4F1FCF1A2A001F3513 /* Resources */,
+				24EF04017EB0A686EF72746E /* [CP] Embed Pods Frameworks */,
+				F2732A3A7B21379F012603B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42227E7C1FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathonsTests" */;
 			buildPhases = (
+				CF846E6AF464E67AD1DE9950 /* [CP] Check Pods Manifest.lock */,
 				42227E611FCF1A2B001F3513 /* Sources */,
 				42227E621FCF1A2B001F3513 /* Frameworks */,
 				42227E631FCF1A2B001F3513 /* Resources */,
+				D89FDED8E1424BD4F62E7B66 /* [CP] Embed Pods Frameworks */,
+				D605CE99F7E662B669727DB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42227E7F1FCF1A2B001F3513 /* Build configuration list for PBXNativeTarget "CUNYHackathonsUITests" */;
 			buildPhases = (
+				61D5047EEAA98029188D4550 /* [CP] Check Pods Manifest.lock */,
 				42227E6C1FCF1A2B001F3513 /* Sources */,
 				42227E6D1FCF1A2B001F3513 /* Frameworks */,
 				42227E6E1FCF1A2B001F3513 /* Resources */,
+				F630273B2956BD5C899D91B2 /* [CP] Embed Pods Frameworks */,
+				424A5BFE4DEB6F44455C96EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +373,187 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A88389C6034FC74FD270385 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CUNYHackathons-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24EF04017EB0A686EF72746E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathons/Pods-CUNYHackathons-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathons/Pods-CUNYHackathons-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424A5BFE4DEB6F44455C96EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathonsUITests/Pods-CUNYHackathonsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D5047EEAA98029188D4550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CUNYHackathonsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF846E6AF464E67AD1DE9950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CUNYHackathonsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D605CE99F7E662B669727DB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathonsTests/Pods-CUNYHackathonsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89FDED8E1424BD4F62E7B66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathonsTests/Pods-CUNYHackathonsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2732A3A7B21379F012603B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathons/Pods-CUNYHackathons-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F630273B2956BD5C899D91B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CUNYHackathonsUITests/Pods-CUNYHackathonsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42227E4D1FCF1A2A001F3513 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D714361FD3780400F2712B /* StateEnum.swift in Sources */,
+				42F15AA61FE019410076BB06 /* HackChatViewController.swift in Sources */,
+				42F15AA01FDF882B0076BB06 /* WebViewController.swift in Sources */,
+				428C80931FE09438005E6D88 /* SendRequestViewController.swift in Sources */,
+				42227E891FCF6C62001F3513 /* HackathonViewController.swift in Sources */,
 				42227E571FCF1A2A001F3513 /* ViewController.swift in Sources */,
+				42D714341FD10E4200F2712B /* AddHackathonViewController.swift in Sources */,
+				424E10C11FD44F4600886B7D /* DateEnum.swift in Sources */,
+				426F5A821FE0BFC200C20285 /* AddGroupViewController.swift in Sources */,
+				425511611FD8F77600B8D213 /* AddTableViewController.swift in Sources */,
+				42F15A991FDF3B2F0076BB06 /* DetailTableViewController.swift in Sources */,
+				4247D29E1FEF847700AE23E8 /* DatabaseLoader.swift in Sources */,
+				42227E871FCF65A7001F3513 /* MainTabViewController.swift in Sources */,
 				42227E551FCF1A2A001F3513 /* AppDelegate.swift in Sources */,
+				42068CE71FE0D9F8003E7A66 /* ChatViewController.swift in Sources */,
+				42227E851FCF5B4F001F3513 /* CreateUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +717,13 @@
 		};
 		42227E7A1FCF1A2B001F3513 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70CAD2DC8F31C09E775102E /* Pods-CUNYHackathons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = CUNYHackathons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +734,13 @@
 		};
 		42227E7B1FCF1A2B001F3513 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F609501B6E2D9316A40BAEF3 /* Pods-CUNYHackathons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = CUNYHackathons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.CUNYHackathons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +751,7 @@
 		};
 		42227E7D1FCF1A2B001F3513 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3135BBA4578AB6E6FB28906 /* Pods-CUNYHackathonsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +769,7 @@
 		};
 		42227E7E1FCF1A2B001F3513 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3BAE83FD6FB535DB3C9E2B /* Pods-CUNYHackathonsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +787,7 @@
 		};
 		42227E801FCF1A2B001F3513 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D896AA9F4550D336CF59E885 /* Pods-CUNYHackathonsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +804,7 @@
 		};
 		42227E811FCF1A2B001F3513 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906B309DB66EDA6DFA31EBA3 /* Pods-CUNYHackathonsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
